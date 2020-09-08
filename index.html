@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+	<title>Personal Portfolio</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">Portfolio</a>
+		<div class="toggle" onclick="toggleMenu()"></div>
+		<ul class="menu">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#abouth">About</a></li>
+			<li><a href="#service">Projects</a></li>
+			<li><a href="#testimonials">Testimonial</a></li>
+			<li><a href="#contactme">contact</a></li>
+		</ul>
+	</header>
+	<section class="banner" id="home">
+		<div class="textBx">
+			<h2>Hello, I am <br><span> hidayat rehmat</span></h2>
+			<h3>I am a Tech Enthusiast and Developer</h3>
+			<a href="#abouth" class="btn">About me</a>
+		</div>
+		
+	</section>
+<section>
+	<section class="about" id="abouth">
+		<div class="heading">
+			<h2>About Me</h2>
+		</div>
+		<div class="content">
+			<div class="contentBx w50">
+				<h3>I am a Tech Enthusiast</h3>
+				<p>Hello I am a Tech Enthusiast and a Passionate developer who currently 
+				pursuing the Btech(Cse) from CTIEMT jalandhar city.I am very passionate to 
+				coding like that if you want to learn or do coding at night i can do it.
+				about my skills i have an intermediate skills on the basics of the Data Structures and Algorithms 
+				along with that i have decent knowledge of data science and machine learning. currently i am working on the web development instead i am developing the skills of full stack developement and service control system.I have multiple projects on the web development as well as on machine learning also.
+ 				 </p>
+			</div>
+			<div class="w50">
+				<img src="aa.jpg" class="img">
+			</div>
+		</div>
+	</section>
+</section>
+<section class="services" id="service">
+	<div class="heading white">
+		<h2>My Works</h2>
+		<p>Following is My Works on the Various Technologies</p>
+	</div>
+	<div class="content">
+		<div class="serviceBx">
+			<img src="icon1.png">
+			<h2>Image Toggler</h2>
+			<p>It is an reactjs Frontend base project in after clicking the image it will toggle the image with 
+				the new image.
+			</p>
+		</div>
+
+		<div class="serviceBx">
+			<img src="icon2.png">
+			<h2>UnSplash Image Gallery</h2>
+			<p>It is an Image search app in which any type of image can be searched.
+			It was developed by using the unsplash api integrated with the axios library as well as the Grid CSS
+			then the frontend is developed by using the ReactJs</p>
+		</div>
+
+		<div class="serviceBx">
+			<img src="icon3.png">
+			<h2>YouTube Clone</h2>
+			<p>It is an try to make the clone of youtube by using the youtube api from the youtube website itself
+			in this to integrate the api i use the axios library.</p>
+		</div>
+
+		<div class="serviceBx">
+			<img src="icon4.png">
+			<h2>Fake News Detection</h2>
+			<p>It is machine learning based project in which i use the dataset from google datasets and then the usage of 
+			Word2Vec algorithm and hidden layers after the training it gives an accuracy of above 95%</p>
+		</div>
+
+		<div class="serviceBx">
+			<img src="icon5.png">
+			<h2>Plant Seed Classification</h2>
+			<p>In this project with the usage of deep learning and hidden layers it gives the accuracy of above 90%/p>
+		</div>
+	</div>
+</section>
+<section class="testimonial" id="testimonials">
+	<div class="heading">
+		<h2>Testimonial</h2>
+		<p>Here are some feedbacks from my peers</p>
+	</div>
+	<div class="content">
+		<div class="testimonialBx">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			</p>
+			<h3>Someone Famous<br><span>Creative Designer</span></h3>
+		</div>
+		<div class="testimonialBx">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			</p>
+			<h3>Someone Famous<br><span>Creative Designer</span></h3>
+		</div>
+
+	</div>
+</section>
+<section class="contact" id="contactme">
+	<div class="heading white">
+		<h2>Contact Me</h2>
+		<p>In case you want to connect me undersigned is the contacts</p>
+	</div>
+	<div class="content">
+		<div class="contactInfo">
+			<h3>Contact Info</h3>
+			<div class="contactInfoBx">
+				<div class="box">				
+				<div class="icon">
+					<i class="fa fa-map-marker"></i>
+				</div>
+				<div class="text">
+					<h3>Address</h3>
+					<p>Street No: 5 Shiv Nagar,<br>Near Nagra,Jalandhar City,<br>144012</p>
+					</div>
+				</div>
+				<div class="box">				
+				<div class="icon"><i class="fa fa-phone"></i></div>
+				<div class="text">
+					<h3>Phone</h3>
+					<p>8283012481</p>
+					</div>
+				</div>
+				<div class="box">				
+				<div class="icon"><i class="fa fa-envelope-o"></i></div>
+				<div class="text">
+					<h3>Email</h3>
+					<p>hidayat210822@gmail.com</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="formBx">
+				<form>
+					<h3>Message Me</h3>
+					<input type="text" name="" placeholder="Full name">
+					<input type="email" name="" placeholder="Email">
+					<textarea placeholder="your Message"></textarea>
+					<input type="submit" name="" value="send">
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="copyright">
+	<p>Copyright @ Hidayat Rehmat</p>
+</div>
+<script type="text/javascript">
+	window.addEventListener('scroll', function(){
+		var header = document.querySelector('header');
+		header.classList.toggle('sticky', window.scrollY > 0);
+	});
+	function toggleMenu(){
+		var menuToggle = document.querySelector('.toggle');
+		var menu = document.querySelector('.menu');
+		menuToggle.classList.toggle('active');
+		menu.classList.toggle('active')
+	}
+</script>
+</body>
+</html>
